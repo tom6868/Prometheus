@@ -181,7 +181,7 @@
 
 		// Dashboard nav
 		"main_dashboard" => "Tableau de bord principal",
-		"sale" => "Promotion",
+		"sale" => "Vente",
 		"transactions" => "Transactions",
 		"users" => "Utilisateurs",
 		"logs" => "Logs",
@@ -294,7 +294,7 @@
 		 * New in 1.5.0.2
 		 */
 		"hide" => "Cacher ce pack",
-		"hide_text" => "If you dont own one of the packages selected below, hide this package from the store",
+		"hide_text" => "Si vous ne possédez pas un pack choisis, vous ne pourrez alors pas acheter ce pack",
 		
 		/**
 		 * New in 1.5.0.6
@@ -339,59 +339,59 @@
 		/**
 		 * New in 1.5.2
 		 */
-		"buy_disable" => "Désactiver packs",
-		"buy_disable_text" => "Désactive ces packs si vous achetez celui-ci",
+		"buy_disable" => "Désactiver l'achat de ce pack",
+		"buy_disable_text" => "Désactiver des l'achat de certain pack si vous avez un pack",
 
-		"credits_doesntexist" => "Cet utilisateur n'existe pas sur ce système.",
-		"credits_yourself" => "Vous ne pouvez pas transférer des crédits pour vous-même.",
+		"credits_doesntexist" => "Cet utilisateur n'éxiste pas.",
+		"credits_yourself" => "Vous ne pouvez pas transfèrer du crédit à vous même.",
 		"credits_steamid" => "Essayez un autre SteamID",
-		"credits_transferringto" => "Transférer à:",
+		"credits_transferringto" => "Transfèrer à :",
 
 		"type" => "Type",
-		"gateway" => "Passerelle",
-		"no_users" => "Aucun utilisateur trouvé",
+		"gateway" => "Moyen",
+		"no_users" => "Pas d'utilisateur trouvé",
 
-		"view_profile" => "Voir le profil",
+		"view_profile" => "Voir son profile",
 		"view_blacklist" => "Voir la liste noire",
 
 		"manage" => "Gérer",
-		"users_search" => "Rechercher un nom, steam64 ou steamid",
+		"users_search" => "Rechercher des utilisateurs avec leur SteamID, SteamID 64 ou Pseudo Steam",
 
 		"transaction" => "Transaction",
-		"delivered" => "Délivré",
-		"state" => "État",
-		"assign_package" => "Attribuer un pack",
-		"set_credits" => "Définir crédits",
-		"give_ticket" => "Donner un ticket",
-		"del_inactive_actions" => "Supprimer les actions inactives",
+		"delivered" => "Livré",
+		"state" => "Statut",
+		"assign_package" => "Assigner Pack",
+		"set_credits" => "Modifier Crédits",
+		"give_ticket" => "Donner un Ticket de Support",
+		"del_inactive_actions" => "Supprimer les pack inactifs",
 
-		"select_pkg" => "Sélectionner un pack",
-		"do_assign_actions" => "Attribuer des actions",
-		"dont_assign_actions" => "Ne pas attribuer d'actions",
-		"clone_expiretime" => "Cloner le délai d'expiration du dernier pack du même type",
-		"assign" => "Attribuer",
+		"select_pkg" => "Choisir Pack",
+		"do_assign_actions" => "Assigner des actions",
+		"dont_assign_actions" => "Ne pas assigner d'actions",
+		"clone_expiretime" => "Cloner date d'expiration d'un autre pack",
+		"assign" => "Assign",
 
-		"set" => "Définir", 
+		"set" => "Mettre", 
 		"disable" => "Désactiver",
 		"enable" => "Activer",
-		"inactive_everyone" => "Définir comme inactif pour tout le monde",
-		"del" => "Suppr",
-		"edit" => "Éditer",
+		"inactive_everyone" => "Mettre inactif pour tout le monde",
+		"del" => "Supprimer",
+		"edit" => "Editer",
 
-		"sale_settings" => "Paramètres de promotion",
-		"sale_text" => "Choisir les packs qui bénéficieront de la promotion.",
+		"sale_settings" => "Paramètres de promotions",
+		"sale_text" => "Choisir quel(s) pack(s) auquel(s) vous voulez appliquer la Promotion.",
 		"message" => "Message",
 		"percentage" => "Pourcentage",
-		"end_date" => "Date de fin",
+		"end_date" => "Date de Fin",
 
 		"update" => "Mise à jour",
-		"automatic_updates" => "Mises à jour automatiques",
-		"dl_lua" => "Télécharger la dernière version lua",
-		"dl_web" => "Télécharger la dernière version web",
-		"no_write_perm" => "Votre dossier de mises à jour (updates) n'a pas les autorisations d'écriture ! Les mises à jour automatiques ne fonctionneront pas tant que le chmod ne sera pas à 777.<br> Vous pouvez toutefois utiliser ce bouton pour télécharger manuellement la mise à jour",
-		"newest_version" => "La version la plus récente disponible est:",
+		"automatic_updates" => "Mise à jour automatique",
+		"dl_lua" => "Télécharger la dernière version LUA",
+		"dl_web" => "Télécharger la dernière version WEB",
+		"no_write_perm" => "Votre dossier de mise à jour n'a pas les bonnes permissions pour pouvoir écrire dessus ! Les mises à jours automatiques vont se faire seulement chmod it to 777. <br>",
+		"newest_version" => "Newest available version is:",
 
-		"test_message" => "Envoyer un message de test au serveur",
+		"test_message" => "Send test message to server",
 	);
 
 ?>
